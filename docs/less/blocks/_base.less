@@ -68,8 +68,19 @@ a {
   padding: 0;
 }
 input,
-button {
+button,
+textarea {
   outline: none;
+}
+input[type="radio"],
+input[type="checkbox"],
+input[type="submit"] {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
 }
 img {
   max-width: 100%;
@@ -228,6 +239,9 @@ button {
   @media (min-width: 1200px) {
     font-size: 64px;
   }
+}
+.contacts .header2 {
+  margin-bottom: 0;
 }
 .bottom-line {
   position: relative;
