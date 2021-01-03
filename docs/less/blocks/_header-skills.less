@@ -6,13 +6,15 @@
   font-weight: 400;
 
   @media (min-width: 768px) and (max-width: 1199px) {
-    width: 320px;
+    width: 100%;
+    max-width: 320px;
     margin-bottom: 0;
     margin-top: 20px;
   }
 
   @media (min-width: 1200px) {
-    width: 600px;
+    width: 100%;
+    max-width: 700px;
     margin-top: 25px;
     font-size: 24px;
     margin-bottom: 30px;
@@ -21,15 +23,7 @@
 .header-skills-list {
   margin-bottom: 5px;
 }
-.skills {
-  @media (min-width: 768px) and (max-width: 1199px) {
-    margin-right: 47px;
-  }
 
-  @media (min-width: 1200px) {
-    margin-right: 75px;
-  }
-}
 .t {
   display: none;
 
@@ -50,7 +44,7 @@
 .nav-icon:last-child {
   margin-right: 0;
 }
-.icons {
+.skills .icons {
   justify-content: left;
   margin-top: 17px;
   margin-bottom: 14px;

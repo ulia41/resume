@@ -163,9 +163,27 @@ button {
     justify-content: space-between;
   }
 }
+.contacts .wrapper {
+  flex-direction: column;
+
+  @media (min-width: 768px) and (max-width: 1199px) {
+    flex-direction: row;
+  }
+
+  @media (min-width: 1200px) {
+    flex-direction: row;
+  }
+}
 .wrapper2 {
   @media (max-width: 767px) {
     flex-direction: column;
+  }
+  @media (min-width: 768px) and (max-width: 1199px) {
+    padding-right: 47px;
+  }
+
+  @media (min-width: 1200px) {
+    padding-right: 75px;
   }
 }
 .buttom {
@@ -192,9 +210,10 @@ button {
 }
 .buttom:hover {
   background-color: rgba(5, 5, 99, 0.8);
+  cursor: pointer;
 }
 .buttom:active {
-  background-color: rgba(5, 5, 99, 0.85);
+  background-color: rgba(5, 5, 99, 0.9);
 }
 .header3 {
   color: #000000;
@@ -330,7 +349,17 @@ button {
 
   @media (min-width: 1200px) {
     display: block;
-    bottom: 3px;
+    bottom: 2px;
+    height: 8px;
+    background-color: #d4d354;
+  }
+}
+.tameline-block-text .header4.bottom-line {
+  cursor: pointer;
+}
+.tameline-block-text .header4.bottom-line::before:hover {
+  @media (min-width: 1200px) {
+    background-color: aqua;
   }
 }
 .tameline .header4 {
