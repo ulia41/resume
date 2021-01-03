@@ -522,37 +522,35 @@ button {
 .tameline-block-text .header4.bottom-line {
   cursor: pointer;
 }
-@media (min-width: 1200px) {
-  /* line 361, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003361}}
-  .tameline-block-text .header4.bottom-line::before:hover {
-    background-color: aqua;
-  }
+/* line 360, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003360}}
+.tameline-block-text .header4.bottom-line:hover::before {
+  background-color: var(--yellow);
 }
-/* line 365, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003365}}
+/* line 363, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003363}}
 .tameline .header4 {
   font-size: 20px;
   padding-left: 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 369, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003369}}
+  /* line 367, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003367}}
   .tameline .header4 {
     font-size: 24px;
     font-weight: 800;
   }
 }
 @media (min-width: 1200px) {
-  /* line 374, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003374}}
+  /* line 372, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003372}}
   .tameline .header4 {
     font-size: 26px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 379, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003379}}
+  /* line 377, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003377}}
   .header4-big {
     font-size: 32px;
     font-weight: 700;
