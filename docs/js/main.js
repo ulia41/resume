@@ -106,3 +106,25 @@ const formItems = document.querySelectorAll('.form-field');
 		// Чтобы по Submit больше ничего не выполнялось - делаем возврат false чтобы прервать цепчку срабатывания остальных функций
 		return false;
 	}
+
+	
+
+// ПАРАЛЛАКС ДВИЖЕНИЯ ЗА МЫШКОЙ
+
+let prxItem = document.querySelectorAll('.contact-icon');
+let prxScene = document.querySelector('.contacts')
+
+prxScene.addEventListener('mousemove', function (e) {
+
+	let x = e.clientX / window.innerWidth;
+
+	let y = e.clientY / window.innerHeight;
+
+	for (let item of prxItem) {
+
+		item.style.transform = 'translate(-' + x * 80 + 'px, -' + y * 80 + 'px)';
+
+	}
+
+});
+
