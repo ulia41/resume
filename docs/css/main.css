@@ -1686,19 +1686,34 @@ button {
 .tameline-block:last-child::after {
   display: none;
 }
-/* line 133, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003133}}
-.tameline-block:first-child::before {
-  content: "";
-  width: 4px;
-  background-color: #e1eef4;
-  position: absolute;
-  top: -57px;
-  bottom: 190px;
-  right: 0;
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* line 134, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003134}}
+  .tameline-block:first-child::before {
+    content: "";
+    width: 4px;
+    background-color: #e1eef4;
+    position: absolute;
+    top: -57px;
+    bottom: 190px;
+    right: 0;
+  }
 }
-/* line 143, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003143}}
+@media (min-width: 1200px) {
+  /* line 146, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003146}}
+  .tameline-block:first-child::before {
+    content: "";
+    width: 4px;
+    background-color: #e1eef4;
+    position: absolute;
+    top: -57px;
+    bottom: 190px;
+    right: 0;
+  }
+}
+/* line 157, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003157}}
 .tameline-block-icon {
   background-color: #ffffff;
   position: absolute;
@@ -1709,8 +1724,8 @@ button {
   top: 0;
   left: 0;
 }
-/* line 153, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003153}}
+/* line 167, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003167}}
 .item-icon {
   width: 40px;
   height: 40px;
@@ -1721,27 +1736,27 @@ button {
   background-size: 100%;
   position: absolute;
 }
-/* line 163, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003163}}
+/* line 177, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003177}}
 .tameline-block-text {
   padding-top: 1px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 166, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003166}}
+  /* line 180, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003180}}
   .tameline-block-text {
     padding-top: 22px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 170, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003170}}
+  /* line 184, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003184}}
   .tameline-block-text {
     padding-top: 20px;
   }
 }
-/* line 174, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003174}}
+/* line 188, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003188}}
 .tameline-block-text-paragraf {
   font-size: 14px;
   font-weight: 500;
@@ -1749,55 +1764,55 @@ button {
   margin-bottom: 10px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 180, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003180}}
+  /* line 194, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003194}}
   .tameline-block-text-paragraf {
     font-size: 16px;
     margin-bottom: 6px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 185, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003185}}
+  /* line 199, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003199}}
   .tameline-block-text-paragraf {
     font-size: 18px;
   }
 }
-/* line 189, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003189}}
+/* line 203, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003203}}
 .text-paragraf {
   font-weight: 700;
   margin-bottom: 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 193, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003193}}
+  /* line 207, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003207}}
   .text-paragraf {
     font-size: 18px;
   }
 }
-/* line 200, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003200}}
+/* line 214, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003214}}
 .layout {
   fill: #ffcf8f;
 }
-/* line 203, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003203}}
+/* line 217, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003217}}
 .chart {
   fill: #ff5b5b;
 }
-/* line 206, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003206}}
+/* line 220, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003220}}
 .day {
   fill: #ac74ee;
 }
-/* line 209, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003209}}
+/* line 223, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003223}}
 .stage {
   fill: #51e5cb;
 }
-/* line 212, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003212}}
+/* line 226, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003226}}
 .final {
   fill: #7cc0ff;
 }

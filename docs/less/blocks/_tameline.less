@@ -130,14 +130,28 @@
   }
 }
 .tameline-block:first-child {
-  &::before {
-    content: "";
-    width: 4px;
-    background-color: #e1eef4;
-    position: absolute;
-    top: -57px;
-    bottom: 190px;
-    right: 0;
+  @media (min-width: 768px) and (max-width: 1199px) {
+    &::before {
+      content: "";
+      width: 4px;
+      background-color: #e1eef4;
+      position: absolute;
+      top: -57px;
+      bottom: 190px;
+      right: 0;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    &::before {
+      content: "";
+      width: 4px;
+      background-color: #e1eef4;
+      position: absolute;
+      top: -57px;
+      bottom: 190px;
+      right: 0;
+    }
   }
 }
 .tameline-block-icon {
