@@ -67,7 +67,12 @@
     min-height: 225px;
   }
 }
-
+.tameline-block:hover {
+  cursor: pointer;
+  .tameline-block-text .header4.bottom-line::before {
+    background-color: var(--yellow);
+  }
+}
 .tameline-block:nth-child(even) {
   @media (min-width: 768px) and (max-width: 1199px) {
     margin-left: auto;

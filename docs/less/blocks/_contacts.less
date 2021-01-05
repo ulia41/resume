@@ -1,5 +1,6 @@
 .contacts {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #f4f8f9;
   width: 100%;
   overflow: hidden;
@@ -7,10 +8,12 @@
 
   @media (min-width: 768px) and (max-width: 1199px) {
     padding-top: 90px;
+    padding-bottom: 90px;
   }
 
   @media (min-width: 1200px) {
     padding-top: 128px;
+    padding-bottom: 150px;
     background-image: url("../img/img-contacts/04.jpg");
     background-repeat: repeat;
     background-position: center;
@@ -165,6 +168,7 @@
   font-weight: 400;
   margin-bottom: 32px;
   line-height: 26px;
+  position: relative;
 
   @media (min-width: 768px) and (max-width: 1199px) {
     font-size: 18px;
@@ -177,6 +181,9 @@
     margin-bottom: 55px;
     margin-top: 25px;
   }
+}
+.contact-paragraf::selection {
+  background-color: var(--yellow);
 }
 .form-field {
   width: 100%;
@@ -220,15 +227,7 @@ textarea.form-field {
 .btn {
   margin-top: 40px;
 }
-/*.form-btn {
-  padding: 15px 40px;
-  color: white;
-  background-color: rgba(24, 38, 111, 0.8);
-  border-radius: 30px;
-  font-size: 22px;
-  font-weight: 700;
-  border: 1px solid transparent;
-}*/
+
 .contacts-content .icons {
   margin-top: 40px;
   font-size: 0;
@@ -257,16 +256,10 @@ textarea.form-field {
   background-color: #333333;
   padding-top: 40px;
   padding-bottom: 40px;
-  margin-top: 60px;
-
-  @media (min-width: 768px) and (max-width: 1199px) {
-    margin-top: 90px;
-  }
 
   @media (min-width: 1200px) {
     padding-top: 22px;
     padding-bottom: 40px;
-    margin-top: 150px;
   }
 }
 .contact-footer-item {
