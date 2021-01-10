@@ -3,9 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="fonts/mplus1p/mplus1p.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--fancibox.css-->
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css" />
+    <link
+      rel="shortcut icon"
+      href="img/img-header/favicon.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="css/main.css" />
+
     <title>Мое резюме</title>
   </head>
   <body>
@@ -17,8 +26,8 @@
       <div class="mobile-container">
         <a href="#" class="header-logo bottom-line"> ЮЗ</a>
         <nav class="header-nav-mobile">
-          <a href="#" class="mobile-nav-link">Услуги</a>
-          <a href="#" class="mobile-nav-link">Работы</a>
+          <a href="education.html" class="mobile-nav-link">Образование</a>
+          <a href="works.html" class="mobile-nav-link">Работы</a>
           <a href="#contact-base" class="mobile-nav-link">Контакты</a>
         </nav>
 
@@ -113,11 +122,11 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
     <!-----//мобильное меню-->
     <header class="header">
       <div class="header-container">
-        <a href="#" class="header-logo bottom-line"> ЮЗ</a>
+        <a href="index.html" class="header-logo bottom-line"> ЮЗ</a>
         <nav class="header-nav">
-          <a href="#" class="header-nav-link">Главная</a>
-          <a href="#" class="header-nav-link">Работы</a>
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="index.html" class="header-nav-link">Главная</a>
+          <a href="works.html" class="header-nav-link">Работы</a>
+          <a href="education.html" class="header-nav-link">Образование</a>
         </nav>
         <nav class="header-nav-icon">
           <a href="#" class="nav-icon-linkedin linkedin">
@@ -333,7 +342,7 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
           <h2 class="header2 bottom-line">Портфолио</h2>
 
           <div class="portfolio-wrapper">
-            <form class="portfolio-bloks-choice">
+            <div class="portfolio-bloks-choice">
               <button
                 type="button"
                 class="portfolio-choice control-active"
@@ -350,11 +359,13 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
               <button type="button" class="portfolio-choice" data-filter=".ft">
                 Frontend
               </button>
-            </form>
+            </div>
             <!---Верстка карточек с работами-->
             <div id="portfolio-works">
               <a
-                href="#"
+                data-fancybox="main-works"
+                target="blank"
+                href="img/img-works/диплом.jpg"
                 class="portfolio-card portfolio-img-card-big mix ft"
                 data-aos="zoom-out"
                 data-aos-duration="1000"
@@ -373,7 +384,8 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
                 </div>
               </a>
               <a
-                href="#"
+                data-fancybox="main-works"
+                href="img/img-works/резюме.jpg"
                 class="portfolio-card portfolio-img-card-big mix ft"
                 data-aos="zoom-out"
                 data-aos-duration="1000"
@@ -392,7 +404,8 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
                 </div></a
               >
               <a
-                href="#"
+                data-fancybox="main-works"
+                href="img/img-works/форест.jpg"
                 class="portfolio-card mix ft"
                 data-aos="zoom-out"
                 data-aos-duration="1000"
@@ -411,7 +424,8 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
                 </div></a
               >
               <a
-                href="#"
+                data-fancybox="main-works"
+                href="img/img-works/крестики.png"
                 class="portfolio-card mix ft"
                 data-aos="zoom-out"
                 data-aos-duration="1000"
@@ -420,17 +434,18 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
                   <span class="button-hover">Смотреть проект</span>
                   <img
                     class="foto"
-                    src="img/img-portfolio/спорт.jpg"
+                    src="img/img-works/крестики.png"
                     alt="спорт"
                   />
                 </div>
                 <div class="portfolio-title">
-                  <h4 class="header4">Верстка страницы Блог</h4>
-                  <p class="description">Верстка лендинга</p>
+                  <h4 class="header4">Верстка игры</h4>
+                  <p class="description">Верстка игры крестики-нолики</p>
                 </div></a
               >
               <a
-                href="#"
+                data-fancybox="main-works"
+                href="img/img-works/Motobike-card.png"
                 class="portfolio-card mix ft"
                 data-aos="zoom-out"
                 data-aos-duration="1000"
@@ -449,7 +464,8 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
                 </div></a
               >
               <a
-                href="#"
+                data-fancybox="main-works"
+                href="img/img-works/юнит.jpg"
                 class="portfolio-card mix bt"
                 data-aos="zoom-out"
                 data-aos-duration="1000"
@@ -464,11 +480,12 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
                 </div>
                 <div class="portfolio-title">
                   <h4 class="header4">Верстка проекта Юнит</h4>
-                  <p class="description">Многостраничный проект.</p>
+                  <p class="description">Страница проекта.</p>
                 </div></a
               >
               <a
-                href="#"
+                data-fancybox="main-works"
+                href="img/img-works/карточка.jpg"
                 class="portfolio-card mix bt"
                 data-aos="zoom-out"
                 data-aos-duration="1000"
@@ -486,9 +503,8 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
                   <p class="description">Лендинг</p>
                 </div></a
               >
-
-              <!---//Верстка карточек с работами-->
             </div>
+            <!---//Верстка карточек с работами-->
             <a class="portfolio-link" href="#">Смотреть все работы</a>
           </div>
         </div>
@@ -834,17 +850,19 @@ C154.791,104.556,158.341,100.277,163.394,100.277z"
           </p>
           <p class="contact-footer-item2">
             Веб-разработчик из Саратовской области, занимаюсь версткой и
-            созданием сайтов. Этот сайт сделал в рамках прохождения обучения по
-            верстке на курсах от WebCademy.ru
+            созданием сайтов. Этот сайт сделала в рамках прохождения обучения по
+            верстке на курсах от <a target="blank" href="https://webcademy.ru/">WebCademy.ru</a>
           </p>
         </div>
       </div>
     </footer>
 
     <script src="libs/jquery/jquery-3.0.0.min.js"></script>
+    <script src="libs/fancybox/jquery.fancybox.js"></script>
     <script src="libs/jquery.validate/jquery.validate.js"></script>
     <script src="libs/mixitUp/mixitup3/mixitup.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script>
       AOS.init();
     </script>

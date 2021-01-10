@@ -27,9 +27,10 @@ let containerEl = document.querySelector('#portfolio-works');
     let mixer = mixitup(containerEl, {
         classNames: {
             block: ""
-        }
+		}
+	
     });
-})
+
 
 //placeholder//
 const formItems = document.querySelectorAll('.form-field');
@@ -123,8 +124,9 @@ prxScene.addEventListener('mousemove', function (e) {
 	for (let item of prxItem) {
 
 		item.style.transform = 'translate(-' + x * 80 + 'px, -' + y * 80 + 'px)';
-
+	
 	}
 
 });
 
+})
