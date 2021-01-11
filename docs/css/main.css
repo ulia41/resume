@@ -37,6 +37,13 @@ body.noskroll {
 }
 /* line 26, blocks\_base.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000326}}
+path,
+circle,
+a {
+  transition: 0.5s;
+}
+/* line 31, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000331}}
 #overlay {
   position: fixed;
   top: 0;
@@ -48,38 +55,38 @@ body.noskroll {
   display: none;
 }
 @media (min-width: 1200px) {
-  /* line 36, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000336}}
+  /* line 41, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000341}}
   #overlay {
     display: none;
   }
 }
-/* line 40, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000340}}
+/* line 45, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000345}}
 #overlay.activ {
   display: block;
 }
-/* line 43, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000343}}
+/* line 48, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000348}}
 a,
 a:hover {
   text-decoration: none;
 }
-/* line 47, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000347}}
+/* line 52, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000352}}
 a {
   color: black;
   display: inline-block;
 }
-/* line 51, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000351}}
+/* line 56, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000356}}
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 56, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000356}}
+/* line 61, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000361}}
 h1,
 h2,
 h3,
@@ -94,15 +101,15 @@ a {
   margin: 0;
   padding: 0;
 }
-/* line 70, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000370}}
+/* line 75, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000375}}
 input,
 button,
 textarea {
   outline: none;
 }
-/* line 75, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000375}}
+/* line 80, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000380}}
 input[type="radio"],
 input[type="checkbox"],
 input[type="submit"] {
@@ -110,26 +117,27 @@ input[type="submit"] {
   -moz-appearance: none;
   -webkit-appearance: none;
 }
-/* line 82, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000382}}
+/* line 87, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000387}}
 textarea {
   resize: none;
 }
-/* line 85, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000385}}
+/* line 90, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000390}}
 img {
   max-width: 100%;
   height: auto;
-  /*vertical-align: top;*/
+  width: 100%;
+  vertical-align: top;
 }
-/* line 90, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000390}}
+/* line 96, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000396}}
 svg {
   max-width: 100%;
   width: fit-content;
 }
-/* line 94, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\0000394}}
+/* line 100, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003100}}
 button {
   display: inline-block;
   background-color: transparent;
@@ -145,8 +153,8 @@ button {
   font-family: "Roboto-Bold";
   src: url("../fonts/Roboto/Roboto-Bold.ttf");
 }
-/* line 110, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003110}}
+/* line 116, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003116}}
 .container {
   width: 100%;
   max-width: 320px;
@@ -156,43 +164,43 @@ button {
   margin-right: auto;
 }
 @media (min-width: 380px) {
-  /* line 118, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003118}}
+  /* line 124, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003124}}
   .container {
     max-width: 380px;
   }
 }
 @media (min-width: 576px) {
-  /* line 122, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003122}}
+  /* line 128, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003128}}
   .container {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  /* line 125, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003125}}
+  /* line 131, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003131}}
   .container {
     max-width: 738px;
   }
 }
 @media (min-width: 992px) {
-  /* line 128, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003128}}
+  /* line 134, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003134}}
   .container {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 131, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003131}}
+  /* line 137, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003137}}
   .container {
     max-width: 1140px;
     padding: 0;
   }
 }
-/* line 136, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003136}}
+/* line 142, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003142}}
 .paragraph {
   color: #393f47;
   font-family: "M PLUS 1p";
@@ -201,104 +209,104 @@ button {
   line-height: 30px;
 }
 @media (min-width: 1200px) {
-  /* line 143, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003143}}
+  /* line 149, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003149}}
   .paragraph {
     font-size: 24px;
     line-height: 36px;
   }
 }
-/* line 148, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003148}}
+/* line 154, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003154}}
 .paragraph::selection {
   background: var(--yellow);
 }
-/* line 151, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003151}}
+/* line 157, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003157}}
 .wrapper {
   display: flex;
   width: 100%;
 }
 @media (max-width: 767px) {
-  /* line 155, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003155}}
+  /* line 161, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003161}}
   .wrapper {
     flex-direction: column-reverse;
     align-items: center;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 160, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003160}}
+  /* line 166, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003166}}
   .wrapper {
     display: flex;
     justify-content: space-between;
   }
 }
 @media (min-width: 1200px) {
-  /* line 165, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003165}}
+  /* line 171, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003171}}
   .wrapper {
     display: flex;
     justify-content: space-between;
   }
 }
-/* line 170, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003170}}
+/* line 176, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003176}}
 .contacts .wrapper {
   flex-direction: column;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 173, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003173}}
+  /* line 179, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003179}}
   .contacts .wrapper {
     flex-direction: row;
   }
 }
 @media (min-width: 1200px) {
-  /* line 177, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003177}}
+  /* line 183, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003183}}
   .contacts .wrapper {
     flex-direction: row;
   }
 }
 @media (max-width: 767px) {
-  /* line 182, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003182}}
+  /* line 188, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003188}}
   .wrapper2 {
     flex-direction: column;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 185, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003185}}
+  /* line 191, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003191}}
   .wrapper2 {
     padding-right: 47px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 189, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003189}}
+  /* line 195, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003195}}
   .wrapper2 {
     padding-right: 75px;
     margin-top: -25px;
   }
 }
-/* line 194, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003194}}
+/* line 200, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003200}}
 .buttom {
   display: none;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 197, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003197}}
+  /* line 203, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003203}}
   .buttom {
     display: none;
   }
 }
 @media (min-width: 1200px) {
-  /* line 201, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003201}}
+  /* line 207, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003207}}
   .buttom {
     display: inline-block;
     border: 5px solid transparent;
@@ -314,48 +322,48 @@ button {
     position: relative;
   }
 }
-/* line 216, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003216}}
+/* line 222, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003222}}
 .buttom:hover {
   background-color: rgba(5, 5, 99, 0.8);
   cursor: pointer;
 }
-/* line 220, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003220}}
+/* line 226, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003226}}
 .buttom:active {
   background-color: rgba(5, 5, 99, 0.9);
 }
-/* line 223, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003223}}
+/* line 229, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003229}}
 .header3 {
   color: #000000;
   font-size: 30px;
   font-weight: 800;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 228, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003228}}
+  /* line 234, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003234}}
   .header3 {
     font-size: 32px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 232, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003232}}
+  /* line 238, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003238}}
   .header3 {
     font-size: 40px;
   }
 }
-/* line 236, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003236}}
+/* line 242, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003242}}
 .header2 {
   font-size: 42px;
   font-weight: 800;
   margin-bottom: 40px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 241, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003241}}
+  /* line 247, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003247}}
   .header2 {
     font-size: 52px;
     font-weight: 800;
@@ -363,48 +371,48 @@ button {
   }
 }
 @media (min-width: 1200px) {
-  /* line 247, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003247}}
+  /* line 253, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003253}}
   .header2 {
     font-size: 64px;
     font-weight: 800;
     margin-bottom: 47px;
   }
 }
-/* line 254, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003254}}
+/* line 260, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003260}}
 .tameline .header2 {
   font-size: 38px;
   margin-bottom: 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 258, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003258}}
+  /* line 264, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003264}}
   .tameline .header2 {
     font-size: 52px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 262, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003262}}
+  /* line 268, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003268}}
   .tameline .header2 {
     font-size: 64px;
   }
 }
-/* line 266, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003266}}
+/* line 272, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003272}}
 .contacts .header2 {
   margin-bottom: 0;
 }
-/* line 269, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003269}}
+/* line 275, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003275}}
 .bottom-line {
   position: relative;
   display: inline-block;
   width: fit-content;
 }
-/* line 274, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003274}}
+/* line 280, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003280}}
 .bottom-line::before {
   content: "";
   bottom: 10px;
@@ -415,8 +423,8 @@ button {
   width: 100%;
   height: 10px;
 }
-/* line 284, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003284}}
+/* line 290, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003290}}
 .header1 .bottom-line::before {
   content: "";
   bottom: 2px;
@@ -428,21 +436,21 @@ button {
   height: 10px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 294, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003294}}
+  /* line 300, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003300}}
   .header1 .bottom-line::before {
     bottom: 4px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 298, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003298}}
+  /* line 304, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003304}}
   .header1 .bottom-line::before {
     bottom: 10px;
   }
 }
-/* line 302, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003302}}
+/* line 308, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003308}}
 .header2.bottom-line::before {
   content: "";
   bottom: 10px;
@@ -454,35 +462,35 @@ button {
   height: 10px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 312, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003312}}
+  /* line 318, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003318}}
   .header2.bottom-line::before {
     bottom: 16px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 316, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003316}}
+  /* line 322, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003322}}
   .header2.bottom-line::before {
     bottom: 17px;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 321, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003321}}
+  /* line 327, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003327}}
   .tameline .header2.bottom-line::before {
     bottom: 14px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 324, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003324}}
+  /* line 330, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003330}}
   .tameline .header2.bottom-line::before {
     bottom: 18px;
   }
 }
-/* line 328, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003328}}
+/* line 334, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003334}}
 .header4 {
   font-size: 22px;
   font-weight: 700;
@@ -492,8 +500,8 @@ button {
   padding-left: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 336, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003336}}
+  /* line 342, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003342}}
   .header4 {
     font-size: 24px;
     font-weight: 700;
@@ -501,58 +509,58 @@ button {
   }
 }
 @media (min-width: 1200px) {
-  /* line 342, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003342}}
+  /* line 348, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003348}}
   .header4 {
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 14px;
   }
 }
-/* line 348, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003348}}
+/* line 354, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003354}}
 .tameline-block-text .header4.bottom-line::before {
   display: none;
 }
 @media (min-width: 1200px) {
-  /* line 354, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003354}}
+  /* line 360, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003360}}
   .tameline-block-text .header4.bottom-line::before {
     display: block;
     bottom: 2px;
     height: 8px;
-    background-color: #d4d354;
+    background-color: rgba(209, 190, 68, 0.85);
   }
 }
-/* line 361, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003361}}
+/* line 367, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003367}}
 .tameline-block-text .header4.bottom-line {
   cursor: pointer;
 }
-/* line 365, blocks\_base.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003365}}
+/* line 371, blocks\_base.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003371}}
 .tameline .header4 {
   font-size: 20px;
   padding-left: 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 369, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003369}}
+  /* line 375, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003375}}
   .tameline .header4 {
     font-size: 24px;
     font-weight: 800;
   }
 }
 @media (min-width: 1200px) {
-  /* line 374, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003374}}
+  /* line 380, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003380}}
   .tameline .header4 {
     font-size: 26px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 379, blocks\_base.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003379}}
+  /* line 385, blocks\_base.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_base\.less}line{font-family:\00003385}}
   .header4-big {
     font-size: 32px;
     font-weight: 700;
@@ -754,17 +762,16 @@ button {
   padding-top: 37px;
   width: 100%;
   overflow: hidden;
-  background-color: #f4f8f9;
 }
 @media (min-width: 1200px) {
-  /* line 137, blocks\_header-nav.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003137}}
+  /* line 135, blocks\_header-nav.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003135}}
   .header-works {
     padding-top: 75px;
   }
 }
-/* line 141, blocks\_header-nav.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003141}}
+/* line 139, blocks\_header-nav.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003139}}
 .header-container-works {
   display: flex;
   justify-content: space-between;
@@ -777,15 +784,15 @@ button {
   padding-right: 30px;
 }
 @media (min-width: 320px) and (max-width: 767px) {
-  /* line 153, blocks\_header-nav.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003153}}
+  /* line 151, blocks\_header-nav.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003151}}
   .header-container-works {
     max-width: 767px;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 156, blocks\_header-nav.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003156}}
+  /* line 154, blocks\_header-nav.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003154}}
   .header-container-works {
     max-width: 1199px;
     padding-left: 36px;
@@ -793,21 +800,21 @@ button {
   }
 }
 @media (min-width: 1200px) {
-  /* line 161, blocks\_header-nav.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003161}}
+  /* line 159, blocks\_header-nav.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003159}}
   .header-container-works {
     max-width: 1600px;
     padding-left: 100px;
     padding-right: 100px;
   }
 }
-/* line 168, blocks\_header-nav.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003168}}
+/* line 166, blocks\_header-nav.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003166}}
 .wrapper-title-works {
   text-align: center;
 }
-/* line 172, blocks\_header-nav.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003172}}
+/* line 170, blocks\_header-nav.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003170}}
 .header-education {
   padding-top: 37px;
   width: 100%;
@@ -815,8 +822,8 @@ button {
   background-color: rgba(0, 255, 255, 0.1);
 }
 @media (min-width: 1200px) {
-  /* line 179, blocks\_header-nav.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003179}}
+  /* line 176, blocks\_header-nav.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_header-nav\.less}line{font-family:\00003176}}
   .header-education {
     padding-top: 75px;
   }
@@ -1339,27 +1346,32 @@ button {
 }
 /* line 18, blocks\_section-portfolio.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000318}}
+#portfolios {
+  background-color: #ffffff;
+}
+/* line 21, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000321}}
 .portfolio-bloks-choice {
   display: none;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 21, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000321}}
+  /* line 24, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000324}}
   .portfolio-bloks-choice {
     display: flex;
     margin-bottom: 47px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 26, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000326}}
+  /* line 29, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000329}}
   .portfolio-bloks-choice {
     display: flex;
     margin-bottom: 45px;
   }
 }
-/* line 31, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000331}}
+/* line 34, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000334}}
 .portfolio-choice {
   display: block;
   font-family: "M PLUS 1p";
@@ -1369,46 +1381,46 @@ button {
   cursor: pointer;
   margin-right: 80px;
 }
-/* line 40, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000340}}
+/* line 43, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000343}}
 .portfolio-choice:last-child {
   margin-right: 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 44, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000344}}
+  /* line 47, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000347}}
   .portfolio-choice {
     font-size: 24px;
     margin-right: 50px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 49, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000349}}
+  /* line 52, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000352}}
   .portfolio-choice {
     font-size: 28px;
     margin-right: 80px;
   }
 }
-/* line 54, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000354}}
+/* line 57, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000357}}
 .portfolio-choice:hover {
   color: var(--yellow);
 }
-/* line 57, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000357}}
+/* line 60, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000360}}
 .portfolio-choice:active {
   color: black;
 }
-/* line 60, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000360}}
+/* line 63, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000363}}
 #portfolio-works {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-/* line 65, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000365}}
+/* line 68, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000368}}
 .portfolio-card {
   overflow: hidden;
   cursor: pointer;
@@ -1422,84 +1434,84 @@ button {
   margin-right: auto;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 77, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000377}}
+  /* line 80, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000380}}
   .portfolio-card {
     width: 48%;
     max-width: 338px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 82, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000382}}
+  /* line 85, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000385}}
   .portfolio-card {
     margin-bottom: 64px;
     width: 32%;
     max-width: 360px;
   }
 }
-/* line 88, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000388}}
+/* line 91, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000391}}
 .portfolio-img-card {
   margin-bottom: 20px;
   height: 200px;
+  position: relative;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 92, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000392}}
+  /* line 96, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000396}}
   .portfolio-img-card {
     height: 240px;
     margin-bottom: 19px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 96, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\0000396}}
+  /* line 100, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003100}}
   .portfolio-img-card {
     height: 239px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 102, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003102}}
+  /* line 106, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003106}}
   .big {
     height: 370px;
   }
 }
-/* line 106, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003106}}
+/* line 110, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003110}}
 .portfolio-card:hover {
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.6);
 }
-/* line 108, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003108}}
+/* line 112, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003112}}
 .portfolio-card:hover .button-hover {
-  display: block;
+  opacity: 1;
 }
-/* line 111, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003111}}
+/* line 115, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003115}}
 .portfolio-card:hover .portfolio-img-card::after {
   display: block;
 }
-/* line 114, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003114}}
+/* line 118, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003118}}
 .portfolio-card:hover .header4 {
   color: rgba(49, 13, 116, 0.7);
 }
-/* line 117, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003117}}
+/* line 121, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003121}}
 .portfolio-card:hover .description {
   color: #310d74;
 }
-/* line 122, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003122}}
+/* line 126, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003126}}
 .portfolio-card:active .button-hover {
   background-color: rgba(49, 13, 116, 0.6);
   color: #ffffff;
-  z-index: 2;
 }
-/* line 128, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003128}}
+/* line 131, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003131}}
 .portfolio-img-card::after {
   content: "";
   position: absolute;
@@ -1510,8 +1522,8 @@ button {
   left: 0;
   display: none;
 }
-/* line 138, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003138}}
+/* line 141, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003141}}
 .description {
   display: block;
   font-size: 16px;
@@ -1519,30 +1531,30 @@ button {
   padding-bottom: 20px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 144, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003144}}
+  /* line 147, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003147}}
   .description {
     font-size: 18px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 148, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003148}}
+  /* line 151, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003151}}
   .description {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 153, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003153}}
+  /* line 156, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003156}}
   .portfolio-img-card-big {
     width: 48%;
     max-width: 556px;
     margin-bottom: 64px;
   }
 }
-/* line 159, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003159}}
+/* line 162, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003162}}
 .button-hover {
   padding-left: 25px;
   padding-right: 25px;
@@ -1558,11 +1570,12 @@ button {
   border-radius: 30px;
   font-size: 22px;
   font-weight: 800;
-  display: none;
+  opacity: 0;
   white-space: nowrap;
+  transition: 0.5s;
 }
-/* line 177, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003177}}
+/* line 181, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003181}}
 .portfolio-link {
   text-shadow: 0 3px 42px #ffffff;
   color: var(--yellow);
@@ -1570,23 +1583,34 @@ button {
   font-weight: 400;
   border-bottom: 1px solid;
   margin-top: -6px;
+  display: none;
 }
 @media (min-width: 1200px) {
-  /* line 185, blocks\_section-portfolio.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003185}}
+  /* line 189, blocks\_section-portfolio.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003189}}
   .portfolio-link {
     display: none;
   }
 }
-/* line 189, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003189}}
+/* line 193, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003193}}
 .portfolio-link:hover {
   color: #310d74;
 }
-/* line 193, blocks\_section-portfolio.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003193}}
+/* line 196, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003196}}
+.button-hover:hover {
+  background-color: #8fa5ae;
+}
+/* line 200, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003200}}
 .choice {
   justify-content: center;
+}
+/* line 203, blocks\_section-portfolio.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-portfolio\.less}line{font-family:\00003203}}
+.control-active {
+  color: rgba(2, 2, 87, 0.76);
 }
 /* line 1, blocks\_tameline.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\000031}}
@@ -1692,91 +1716,92 @@ button {
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000372}}
 .tameline-block:hover .tameline-block-text .header4.bottom-line::before {
   background-color: var(--yellow);
+  transition: 0.5s;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 77, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000377}}
+  /* line 78, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000378}}
   .tameline-block:nth-child(even) {
     margin-left: auto;
   }
-  /* line 80, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000380}}
+  /* line 81, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000381}}
   .tameline-block:nth-child(even)::after {
     left: -2px;
   }
-  /* line 83, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000383}}
+  /* line 84, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000384}}
   .tameline-block:nth-child(even) .tameline-block-icon {
     left: -37px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 88, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000388}}
+  /* line 89, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000389}}
   .tameline-block:nth-child(even) {
     margin-left: auto;
   }
-  /* line 90, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000390}}
+  /* line 91, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000391}}
   .tameline-block:nth-child(even)::after {
     left: -2px;
   }
-  /* line 93, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000393}}
+  /* line 94, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000394}}
   .tameline-block:nth-child(even) .tameline-block-icon {
     left: -37px;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 99, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\0000399}}
+  /* line 100, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003100}}
   .tameline-block:nth-child(odd) {
     padding-left: 0;
     padding-right: 68px;
     text-align: right;
   }
-  /* line 103, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003103}}
+  /* line 104, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003104}}
   .tameline-block:nth-child(odd)::after {
     left: auto;
     right: -2px;
   }
-  /* line 107, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003107}}
+  /* line 108, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003108}}
   .tameline-block:nth-child(odd) .tameline-block-icon {
     left: auto;
     right: -37px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 113, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003113}}
+  /* line 114, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003114}}
   .tameline-block:nth-child(odd) {
     padding-left: 0;
     padding-right: 80px;
     text-align: right;
   }
-  /* line 117, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003117}}
+  /* line 118, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003118}}
   .tameline-block:nth-child(odd)::after {
     left: auto;
     right: -2px;
   }
-  /* line 121, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003121}}
+  /* line 122, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003122}}
   .tameline-block:nth-child(odd) .tameline-block-icon {
     left: auto;
     right: -37px;
   }
 }
-/* line 128, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003128}}
+/* line 129, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003129}}
 .tameline-block:last-child::after {
   display: none;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 134, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003134}}
+  /* line 135, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003135}}
   .tameline-block:first-child::before {
     content: "";
     width: 4px;
@@ -1788,8 +1813,8 @@ button {
   }
 }
 @media (min-width: 1200px) {
-  /* line 146, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003146}}
+  /* line 147, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003147}}
   .tameline-block:first-child::before {
     content: "";
     width: 4px;
@@ -1800,8 +1825,8 @@ button {
     right: 0;
   }
 }
-/* line 157, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003157}}
+/* line 158, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003158}}
 .tameline-block-icon {
   background-color: #ffffff;
   position: absolute;
@@ -1812,8 +1837,8 @@ button {
   top: 0;
   left: 0;
 }
-/* line 167, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003167}}
+/* line 168, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003168}}
 .item-icon {
   width: 40px;
   height: 40px;
@@ -1824,27 +1849,27 @@ button {
   background-size: 100%;
   position: absolute;
 }
-/* line 177, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003177}}
+/* line 178, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003178}}
 .tameline-block-text {
   padding-top: 1px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 180, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003180}}
+  /* line 181, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003181}}
   .tameline-block-text {
     padding-top: 22px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 184, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003184}}
+  /* line 185, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003185}}
   .tameline-block-text {
     padding-top: 20px;
   }
 }
-/* line 188, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003188}}
+/* line 189, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003189}}
 .tameline-block-text-paragraf {
   font-size: 14px;
   font-weight: 500;
@@ -1852,55 +1877,55 @@ button {
   margin-bottom: 10px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 194, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003194}}
+  /* line 195, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003195}}
   .tameline-block-text-paragraf {
     font-size: 16px;
     margin-bottom: 6px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 199, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003199}}
+  /* line 200, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003200}}
   .tameline-block-text-paragraf {
     font-size: 18px;
   }
 }
-/* line 203, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003203}}
+/* line 204, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003204}}
 .text-paragraf {
   font-weight: 700;
   margin-bottom: 0;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 207, blocks\_tameline.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003207}}
+  /* line 208, blocks\_tameline.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003208}}
   .text-paragraf {
     font-size: 18px;
   }
 }
-/* line 214, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003214}}
+/* line 215, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003215}}
 .layout {
   fill: #ffcf8f;
 }
-/* line 217, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003217}}
+/* line 218, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003218}}
 .chart {
   fill: #ff5b5b;
 }
-/* line 220, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003220}}
+/* line 221, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003221}}
 .day {
   fill: #ac74ee;
 }
-/* line 223, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003223}}
+/* line 224, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003224}}
 .stage {
   fill: #51e5cb;
 }
-/* line 226, blocks\_tameline.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003226}}
+/* line 227, blocks\_tameline.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_tameline\.less}line{font-family:\00003227}}
 .final {
   fill: #7cc0ff;
 }
@@ -2296,7 +2321,7 @@ textarea.form-field {
 /* line 31, blocks\_footer.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_footer\.less}line{font-family:\0000331}}
 .footer-works {
-  background-color: #f3f7f9;
+  background-color: #ffffff;
 }
 /* line 34, blocks\_footer.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_footer\.less}line{font-family:\0000334}}
@@ -2333,6 +2358,12 @@ textarea.form-field {
 footer a {
   color: #b0b0b0;
   border-bottom: 1px solid  #b0b0b0 ;
+}
+/* line 60, blocks\_footer.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_footer\.less}line{font-family:\0000360}}
+.footer-works .header-BG {
+  margin-bottom: 0;
+  transform: scale(1);
 }
 /* line 1, blocks\_section-education.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\000031}}
@@ -2581,10 +2612,14 @@ footer a {
 /* line 167, blocks\_section-education.less */
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003167}}
 .emblem {
+  width: 140px;
+  height: 150px;
   margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 170, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003170}}
+/* line 174, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003174}}
 .education-link {
   font-size: 28px;
   color: #ffffff;
@@ -2595,28 +2630,28 @@ footer a {
   display: inline-block;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 179, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003179}}
+  /* line 183, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003183}}
   .education-link {
     font-size: 20px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 183, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003183}}
+  /* line 187, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003187}}
   .education-link {
     font-size: 28px;
     color: #ffffff;
   }
 }
-/* line 188, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003188}}
+/* line 192, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003192}}
 .education-link:hover {
   color: aqua;
   border-bottom: 1px solid aqua;
 }
-/* line 192, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003192}}
+/* line 196, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003196}}
 .block-wrapper {
   display: flex;
   flex-direction: column;
@@ -2624,23 +2659,23 @@ footer a {
   position: relative;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 198, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003198}}
+  /* line 202, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003202}}
   .block-wrapper {
     flex-direction: row;
     top: -150px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 203, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003203}}
+  /* line 207, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003207}}
   .block-wrapper {
     flex-direction: row;
     top: -200px;
   }
 }
-/* line 208, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003208}}
+/* line 212, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003212}}
 .education-blocks-img-diplom {
   margin-top: 10px;
   display: inline-flex;
@@ -2648,111 +2683,121 @@ footer a {
   justify-content: center;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 214, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003214}}
+  /* line 218, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003218}}
   .education-blocks-img-diplom {
     margin-top: 20px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 218, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003218}}
+  /* line 222, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003222}}
   .education-blocks-img-diplom {
     margin-top: 10px;
   }
 }
-/* line 222, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003222}}
+/* line 226, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003226}}
 .link-img-education {
   width: 250px;
   height: 150px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 226, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003226}}
+  /* line 230, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003230}}
   .link-img-education {
     width: 130px;
     height: 91px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 231, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003231}}
+  /* line 235, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003235}}
   .link-img-education {
     width: 200px;
     height: 140px;
   }
 }
-/* line 236, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003236}}
+/* line 240, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003240}}
 .link-img-education:nth-child(even) {
   margin-left: 0;
 }
 @media (min-width: 768px) and (max-width: 990px) {
-  /* line 239, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003239}}
+  /* line 243, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003243}}
   .link-img-education:nth-child(even) {
     margin-left: 5px;
   }
 }
 @media (min-width: 991px) and (max-width: 1199px) {
-  /* line 243, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003243}}
+  /* line 247, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003247}}
   .link-img-education:nth-child(even) {
     margin-left: 20px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 247, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003247}}
+  /* line 251, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003251}}
   .link-img-education:nth-child(even) {
     margin-left: 10px;
   }
 }
-/* line 251, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003251}}
+/* line 255, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003255}}
 .link-img-education:nth-child(n + 1) {
   margin-bottom: 10px;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 254, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003254}}
+  /* line 258, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003258}}
   .link-img-education:nth-child(n + 1) {
     margin-bottom: 20px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 258, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003258}}
+  /* line 262, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003262}}
   .link-img-education:nth-child(n + 1) {
     margin-bottom: 10px;
   }
 }
-/* line 263, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003263}}
+/* line 267, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003267}}
 .header6 {
   font-size: 28px;
   color: #ffffff;
   text-align: center;
 }
-/* line 269, blocks\_section-education.less */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003269}}
+/* line 273, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003273}}
 .link-img-education img {
   width: 100%;
   height: 100%;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
-  /* line 274, blocks\_section-education.less */
-  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003274}}
-  .education-logo-none {
-    display: none;
-  }
-}
-@media (min-width: 1200px) {
   /* line 278, blocks\_section-education.less */
   @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003278}}
   .education-logo-none {
     display: none;
   }
+}
+@media (min-width: 1200px) {
+  /* line 282, blocks\_section-education.less */
+  @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003282}}
+  .education-logo-none {
+    display: none;
+  }
+}
+/* line 286, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003286}}
+.education-block-content .header-link {
+  border-bottom: 2px solid #ffffff;
+}
+/* line 289, blocks\_section-education.less */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/Юлия\/Desktop\/мое резюме\/docs\/less\/blocks\/_section-education\.less}line{font-family:\00003289}}
+.education-block-content .header-link:hover {
+  border-bottom: 2px solid aqua;
 }
 /*# sourceMappingURL=main.css.map */

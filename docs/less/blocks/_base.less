@@ -23,6 +23,11 @@ body {
 body.noskroll {
   overflow: hidden;
 }
+path,
+circle,
+a {
+  transition: 0.5s;
+}
 #overlay {
   position: fixed;
   top: 0;
@@ -85,7 +90,8 @@ textarea {
 img {
   max-width: 100%;
   height: auto;
-  /*vertical-align: top;*/
+  width: 100%;
+  vertical-align: top;
 }
 svg {
   max-width: 100%;
@@ -355,7 +361,7 @@ button {
     display: block;
     bottom: 2px;
     height: 8px;
-    background-color: #d4d354;
+    background-color: rgba(209, 190, 68, 0.85);
   }
 }
 .tameline-block-text .header4.bottom-line {
